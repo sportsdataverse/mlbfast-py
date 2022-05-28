@@ -1,0 +1,65 @@
+,primary_position_cd,name_last_first,player_html,birth_date,height_inches,weight,forty_man_sw,team_id,throws,active_sw,name_first_last,bats,position_desig,stat_years,player_id,status_short,roster_years,height_feet,player_first_last_html,name_sort,primary_position,jersey_number,current_sw
+0,O,"Aoki, Norichika","Aoki, Norichika",1982-01-05T00:00:00,9,180,Y,121,R,N,Norichika Aoki,L,OUTFIELDER,,493114,Active,,5,Norichika Aoki,"AOKI, NORICHIKA",OF,11,N
+1,1,"Bastardo, Antonio","Bastardo, Antonio",1985-09-21T00:00:00,11,202,Y,121,L,N,Antonio Bastardo,R,PITCHER,,455374,Traded,,5,Antonio Bastardo,"BASTARDO, ANTONIO",P,59,N
+2,1,"Blevins, Jerry","Blevins, Jerry",1983-09-06T00:00:00,4,182,Y,121,L,N,Jerry Blevins,L,PITCHER,,460283,Active,,6,Jerry Blevins,"BLEVINS, JERRY",P,39,N
+3,1,"Bradford, Chasen","Bradford, Chasen",1989-08-05T00:00:00,1,229,Y,121,R,Y,Chasen Bradford,R,PITCHER,,607473,Active,,6,Chasen Bradford,"BRADFORD, CHASEN",P,46,N
+4,9,"Bruce, Jay","Bruce, Jay",1987-04-03T00:00:00,3,230,Y,121,L,N,Jay Bruce,L,OUTFIELDER,,457803,Traded,,6,Jay Bruce,"BRUCE, JAY",RF,19,N
+5,4,"Cabrera, Asdrubal","Cabrera, Asdrúbal",1985-11-13T00:00:00,0,235,Y,121,R,N,Asdrubal Cabrera,S,INFIELDER,,452678,Active,,6,Asdrúbal Cabrera,"CABRERA, ASDRUBAL",2B,13,N
+6,1,"Callahan, Jamie","Callahan, Jamie",1994-08-24T00:00:00,2,230,Y,121,R,N,Jamie Callahan,R,PITCHER,,621094,Active,,6,Jamie Callahan,"CALLAHAN, JAMIE",P,43,N
+7,3,"Campbell, Eric","Campbell, Eric",1987-04-09T00:00:00,3,215,Y,121,R,N,Eric Campbell,R,INFIELDER,,493472,Signed,,6,Eric Campbell,"CAMPBELL, ERIC",1B,29,N
+8,4,"Cecchini, Gavin","Cecchini, Gavin",1993-12-22T00:00:00,2,200,Y,121,R,N,Gavin Cecchini,R,INFIELDER,,608325,Active,,6,Gavin Cecchini,"CECCHINI, GAVIN",2B,2,N
+9,7,"Cespedes, Yoenis","Cespedes, Yoenis",1985-10-18T00:00:00,11,225,Y,121,R,N,Yoenis Cespedes,R,OUTFIELDER,,493316,10-day IL,,5,Yoenis Cespedes,"CESPEDES, YOENIS",LF,52,N
+10,1,"Colon, Bartolo","Colon, Bartolo",1973-05-24T00:00:00,11,285,Y,121,R,N,Bartolo Colon,R,PITCHER,,112526,Free agent,,5,Bartolo Colon,"COLON, BARTOLO",P,40,N
+11,7,"Conforto, Michael","Conforto, Michael",1993-03-01T00:00:00,1,215,Y,121,R,Y,Michael Conforto,L,OUTFIELDER,,624424,10-day IL,,6,Michael Conforto,"CONFORTO, MICHAEL",LF,30,N
+12,2,"d'Arnaud, Travis","d'Arnaud, Travis",1989-02-10T00:00:00,2,210,Y,121,R,Y,Travis d'Arnaud,R,CATCHER,,518595,Active,,6,Travis d'Arnaud,"D'ARNAUD, TRAVIS",C,18,N
+13,8,"De Aza, Alejandro","De Aza, Alejandro",1984-04-11T00:00:00,0,195,Y,121,L,Y,Alejandro De Aza,L,OUTFIELDER,,457477,Free agent,,6,Alejandro De Aza,"DE AZA, ALEJANDRO",CF,16,N
+14,1,"deGrom, Jacob","deGrom, Jacob",1988-06-19T00:00:00,4,180,Y,121,R,Y,Jacob deGrom,L,PITCHER,,594798,Active,,6,Jacob deGrom,"DEGROM, JACOB",P,48,Y
+15,3,"Duda, Lucas","Duda, Lucas",1986-02-03T00:00:00,4,255,Y,121,R,N,Lucas Duda,L,INFIELDER,,446263,Traded,,6,Lucas Duda,"DUDA, LUCAS",1B,21,N
+16,1,"Edgin, Josh","Edgin, Josh",1986-12-17T00:00:00,1,245,Y,121,L,N,Josh Edgin,R,PITCHER,,572831,Signed,,6,Josh Edgin,"EDGIN, JOSH",P,66,N
+17,5,"Evans, Phillip","Evans, Phillip",1992-09-10T00:00:00,10,210,Y,121,R,Y,Phillip Evans,R,INFIELDER,,595943,Active,,5,Phillip Evans,"EVANS, PHILLIP",3B,72,N
+18,1,"Familia, Jeurys","Familia, Jeurys",1989-10-10T00:00:00,3,240,Y,121,R,Y,Jeurys Familia,R,PITCHER,,544727,Active,,6,Jeurys Familia,"FAMILIA, JEURYS",P,27,N
+19,1,"Flexen, Chris","Flexen, Chris",1994-07-01T00:00:00,3,219,Y,121,R,Y,Chris Flexen,R,PITCHER,,623167,Active,,6,Chris Flexen,"FLEXEN, CHRIS",P,64,N
+20,3,"Flores, Wilmer","Flores, Wilmer",1991-08-06T00:00:00,2,213,Y,121,R,Y,Wilmer Flores,R,INFIELDER,,527038,Active,,6,Wilmer Flores,"FLORES, WILMER",1B,4,N
+21,1,"Gilmartin, Sean","Gilmartin, Sean",1990-05-08T00:00:00,2,205,Y,121,L,N,Sean Gilmartin,L,PITCHER,,543219,Des. for Assignment,,6,Sean Gilmartin,"GILMARTIN, SEAN",P,36,N
+22,1,"Goeddel, Erik","Goeddel, Erik",1988-12-20T00:00:00,3,191,Y,121,R,N,Erik Goeddel,R,PITCHER,,592340,Active,,6,Erik Goeddel,"GOEDDEL, ERIK",P,62,N
+23,8,"Granderson, Curtis","Granderson, Curtis",1981-03-16T00:00:00,1,200,Y,121,R,N,Curtis Granderson,L,OUTFIELDER,,434158,Traded,,6,Curtis Granderson,"GRANDERSON, CURTIS",CF,3,N
+24,1,"Gsellman, Robert","Gsellman, Robert",1993-07-18T00:00:00,4,200,Y,121,R,Y,Robert Gsellman,R,PITCHER,,607229,Active,,6,Robert Gsellman,"GSELLMAN, ROBERT",P,65,N
+25,1,"Harvey, Matt","Harvey, Matt",1989-03-27T00:00:00,4,220,Y,121,R,Y,Matt Harvey,R,PITCHER,,518774,Active,,6,Matt Harvey,"HARVEY, MATT",P,33,N
+26,1,"Henderson, Jim","Henderson, Jim",1982-10-21T00:00:00,5,220,Y,121,R,N,Jim Henderson,L,PITCHER,,449104,Signed,,6,Jim Henderson,"HENDERSON, JIM",P,51,N
+27,5,"Johnson, Kelly","Johnson, Kelly",1982-02-22T00:00:00,1,200,Y,121,R,N,Kelly Johnson,L,INFIELDER,,430637,Free agent,,6,Kelly Johnson,"JOHNSON, KELLY",3B,55,N
+28,5,"Kelly, Ty","Kelly, Ty",1988-07-20T00:00:00,0,180,Y,121,R,Y,Ty Kelly,S,INFIELDER,,571841,Claimed,,6,Ty Kelly,"KELLY, TY",3B,56,N
+29,8,"Lagares, Juan","Lagares, Juan",1989-03-17T00:00:00,2,219,Y,121,R,Y,Juan Lagares,R,OUTFIELDER,,501571,Active,,6,Juan Lagares,"LAGARES, JUAN",CF,12,N
+30,3,"Loney, James","Loney, James",1984-05-07T00:00:00,3,235,Y,121,L,N,James Loney,L,INFIELDER,,425766,Free agent,,6,James Loney,"LONEY, JAMES",1B,28,N
+31,1,"Lugo, Seth","Lugo, Seth",1989-11-17T00:00:00,4,225,Y,121,R,Y,Seth Lugo,R,PITCHER,,607625,Active,,6,Seth Lugo,"LUGO, SETH",P,67,Y
+32,1,"Matz, Steven","Matz, Steven",1991-05-29T00:00:00,2,201,Y,121,L,Y,Steven Matz,R,PITCHER,,571927,60-day IL,,6,Steven Matz,"MATZ, STEVEN",P,32,N
+33,1,"McGowan, Kevin","McGowan, Kevin",1991-10-18T00:00:00,5,233,Y,121,R,N,Kevin McGowan,R,PITCHER,,641850,Active,,6,Kevin McGowan,"MCGOWAN, KEVIN",P,61,N
+34,1,"Milone, Tommy","Milone, Tommy",1987-02-16T00:00:00,0,215,Y,121,L,Y,Tommy Milone,L,PITCHER,,543548,Active,,6,Tommy Milone,"MILONE, TOMMY",P,29,N
+35,1,"Montero, Rafael","Montero, Rafael",1990-10-17T00:00:00,0,190,Y,121,R,Y,Rafael Montero,R,PITCHER,,606160,Active,,6,Rafael Montero,"MONTERO, RAFAEL",P,50,N
+36,2,"Nido, Tomas","Nido, Tomás",1994-04-12T00:00:00,0,211,Y,121,R,Y,Tomas Nido,R,CATCHER,,621512,Active,,6,Tomás Nido,"NIDO, TOMAS",C,77,Y
+37,1,"Niese, Jonathon","Niese, Jonathon",1986-10-27T00:00:00,3,215,Y,121,L,N,Jonathon Niese,L,PITCHER,,477003,Free agent,,6,Jonathon Niese,"NIESE, JONATHON",P,49,N
+38,8,"Nimmo, Brandon","Nimmo, Brandon",1993-03-27T00:00:00,3,206,Y,121,R,Y,Brandon Nimmo,L,OUTFIELDER,,607043,Active,,6,Brandon Nimmo,"NIMMO, BRANDON",CF,9,Y
+39,1,"Pill, Tyler","Pill, Tyler",1990-05-29T00:00:00,1,199,Y,121,R,N,Tyler Pill,L,PITCHER,,543652,Reassigned,,6,Tyler Pill,"PILL, TYLER",P,56,N
+40,2,"Plawecki, Kevin","Plawecki, Kevin",1991-02-26T00:00:00,2,208,Y,121,R,Y,Kevin Plawecki,R,CATCHER,,608700,Active,,6,Kevin Plawecki,"PLAWECKI, KEVIN",C,26,N
+41,1,"Ramirez, Neil","Ramírez, Neil",1989-05-25T00:00:00,4,215,Y,121,R,N,Neil Ramirez,R,PITCHER,,519166,Signed,,6,Neil Ramírez,"RAMIREZ, NEIL",P,55,N
+42,1,"Ramos, AJ","Ramos, AJ",1986-09-20T00:00:00,10,200,Y,121,R,Y,AJ Ramos,R,PITCHER,,573109,Active,,5,AJ Ramos,"RAMOS, AJ",P,44,N
+43,1,"Reed, Addison","Reed, Addison",1988-12-27T00:00:00,4,230,Y,121,R,N,Addison Reed,L,PITCHER,,592665,Traded,,6,Addison Reed,"REED, ADDISON",P,43,N
+44,6,"Reyes, Jose","Reyes, José",1983-06-11T00:00:00,0,195,Y,121,R,N,Jose Reyes,S,INFIELDER,,408314,Active,,6,José Reyes,"REYES, JOSE",SS,7,N
+45,5,"Reynolds, Matt","Reynolds, Matt",1990-12-03T00:00:00,1,200,Y,121,R,Y,Matt Reynolds,R,INFIELDER,,608703,Active,,6,Matt Reynolds,"REYNOLDS, MATT",3B,15,N
+46,1,"Rhame, Jacob","Rhame, Jacob",1993-03-16T00:00:00,1,215,Y,121,R,N,Jacob Rhame,R,PITCHER,,642008,Active,,6,Jacob Rhame,"RHAME, JACOB",P,35,N
+47,2,"Rivera, Rene","Rivera, René",1983-07-31T00:00:00,10,215,Y,121,R,N,Rene Rivera,R,CATCHER,,425784,Claimed,,5,René Rivera,"RIVERA, RENE",C,44,N
+48,5,"Rivera, T.J.","Rivera, T.J.",1988-10-27T00:00:00,1,203,Y,121,R,Y,T.J. Rivera,R,INFIELDER,,608061,10-day IL,,6,T.J. Rivera,"RIVERA, T.J.",3B,54,N
+49,1,"Robles, Hansel","Robles, Hansel",1990-08-13T00:00:00,0,220,Y,121,R,Y,Hansel Robles,R,PITCHER,,570663,Active,,6,Hansel Robles,"ROBLES, HANSEL",P,47,N
+50,6,"Rosario, Amed","Rosario, Amed",1995-11-20T00:00:00,2,190,Y,121,R,Y,Amed Rosario,R,INFIELDER,,642708,Active,,6,Amed Rosario,"ROSARIO, AMED",SS,1,N
+51,8,"Ruggiano, Justin","Ruggiano, Justin",1982-04-12T00:00:00,1,210,Y,121,R,N,Justin Ruggiano,R,OUTFIELDER,,448605,Free agent,,6,Justin Ruggiano,"RUGGIANO, JUSTIN",CF,1,N
+52,1,"Salas, Fernando","Salas, Fernando",1985-05-30T00:00:00,2,200,Y,121,R,Y,Fernando Salas,R,PITCHER,,477569,Released,,6,Fernando Salas,"SALAS, FERNANDO",P,59,N
+53,1,"Sewald, Paul","Sewald, Paul",1990-05-26T00:00:00,3,219,Y,121,R,Y,Paul Sewald,R,PITCHER,,623149,Active,,6,Paul Sewald,"SEWALD, PAUL",P,51,N
+54,3,"Smith, Dominic","Smith, Dominic",1995-06-15T00:00:00,0,239,Y,121,L,Y,Dominic Smith,L,INFIELDER,,642086,Active,,6,Dominic Smith,"SMITH, DOMINIC",1B,22,Y
+55,1,"Smoker, Josh","Smoker, Josh",1988-11-26T00:00:00,1,232,Y,121,L,N,Josh Smoker,L,PITCHER,,519294,Active,,6,Josh Smoker,"SMOKER, JOSH",P,49,N
+56,1,"Syndergaard, Noah","Syndergaard, Noah",1992-08-29T00:00:00,6,242,Y,121,R,Y,Noah Syndergaard,L,PITCHER,,592789,Active,,6,Noah Syndergaard,"SYNDERGAARD, NOAH",P,34,N
+57,9,"Taijeron, Travis","Taijeron, Travis",1989-01-20T00:00:00,2,224,Y,121,R,N,Travis Taijeron,R,OUTFIELDER,,607369,Active,,6,Travis Taijeron,"TAIJERON, TRAVIS",RF,28,N
+58,1,"Verrett, Logan","Verrett, Logan",1990-06-19T00:00:00,2,190,Y,121,R,Y,Logan Verrett,R,PITCHER,,548337,Traded,,6,Logan Verrett,"VERRETT, LOGAN",P,35,N
+59,4,"Walker, Neil","Walker, Neil",1985-09-10T00:00:00,2,214,Y,121,R,N,Neil Walker,S,INFIELDER,,435522,Traded,,6,Neil Walker,"WALKER, NEIL",2B,20,N
+60,1,"Wheeler, Zack","Wheeler, Zack",1990-05-30T00:00:00,4,195,Y,121,R,Y,Zack Wheeler,L,PITCHER,,554430,60-day IL,,6,Zack Wheeler,"WHEELER, ZACK",P,45,N
+61,1,"Wilk, Adam","Wilk, Adam",1987-12-09T00:00:00,2,180,Y,121,L,N,Adam Wilk,L,PITCHER,,573244,Claimed,,6,Adam Wilk,"WILK, ADAM",P,35,N
+62,5,"Wright, David","Wright, David",1982-12-20T00:00:00,0,205,Y,121,R,N,David Wright,R,INFIELDER,,431151,60-day IL,,6,David Wright,"WRIGHT, DAVID",3B,5,N
+63,1,"Ynoa, Gabriel","Ynoa, Gabriel",1993-05-26T00:00:00,2,205,Y,121,R,Y,Gabriel Ynoa,R,PITCHER,,593679,Traded,,6,Gabriel Ynoa,"YNOA, GABRIEL",P,63,N
