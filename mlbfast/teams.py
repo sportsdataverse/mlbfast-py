@@ -1,3 +1,6 @@
+## Script: teams.py
+## Author: Joseph Armstrong (armstjc)
+
 from re import search
 import pandas as pd
 from pandas import json_normalize

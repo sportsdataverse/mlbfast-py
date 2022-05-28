@@ -1,3 +1,6 @@
+## Script: stats.py
+## Author: Joseph Armstrong (armstjc)
+
 import pandas as pd
 from pandas import json_normalize
 import json
