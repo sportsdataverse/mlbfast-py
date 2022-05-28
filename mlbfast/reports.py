@@ -52,14 +52,22 @@ def pullCopyrightInfo(saveFile=False,returnFile=False):
 		print('Could not connect to the internet. \nPlease fix this issue to be able to use this package.')
 
 
-def getTransactionsInRange(startDate=20200101,endDate=20201231):
+def getTransactionsInRange(startDate=0,endDate=0):
 	'''
-	Retrives the player info for an MLB player, given a proper MLBAM ID
+	Retrives all transactions in a given range of dates.
+	You MUST provide two dates for this function to work, and both dates must 
+	be in YYYYMMDD format. For example, December 31st, 2021 would be represented
+	as 20211231
 
 	Args:
 	
-	playerID (int):
-		Required paramater. If no playerID is provided, the function wil not work.
+	startDate (int):
+		Required paramater. If no startDate is provided, the function wil not work.
+		Additionally, startDate must be in YYYYMMDD format.
+
+	endDate (int):
+		Required paramater. If no endDate is provided, the function wil not work.
+		Additionally, endDate must be in YYYYMMDD format.
 	'''
 	pullCopyrightInfo()
 	#p_df = pd.DataFrame()
@@ -108,14 +116,34 @@ def getTransactionsInRange(startDate=20200101,endDate=20201231):
 	else:
 		print('Please format your dates as YYYYMMDD. \nFor example, December 31st, 2021 would be formatted as \n\n20211231\n')
 
-def getBroadcastInfo(season=2020,home_away="b",startDate=0,endDate=0):
+def getBroadcastInfo(season=0,home_away="e",startDate=0,endDate=0):
 	'''
-	Retrives the player info for an MLB player, given a proper MLBAM ID
+	Retrives the broadcasters (radio and TV) involved with certian games.
 
 	Args:
 	
-	playerID (int):
-		Required paramater. If no playerID is provided, the function wil not work.
+	season (int):
+		Required paramater. If no season is provided, the function wil not work.
+
+	home_away (string):
+		Optional paramater. Used to get broadcasters from either the home OR the away side.
+		Leave blank if you want both home and away broadcasters.
+
+		If you want home broadcasters only, set home_away='H' or home_away='a'.
+
+		If you want away broadcasters only, set home_away='A' or home_away='a'.
+
+	startDate (int):
+		Optional paramater. If no startDate is provided, 
+		the function will get all broadcasters starting at the start of the given MLB season.
+		Additionally, startDate must be in YYYYMMDD format. If it is not in that format,
+		the function may not work properly.
+
+	endDate (int):
+		Optional paramater. If no endDate is provided, 
+		the function will get all broadcasters until the end of the given MLB season.
+		Additionally, endDate must be in YYYYMMDD format. If it is not in that format,
+		the function may not work properly.
 	'''
 	pullCopyrightInfo()
 	#p_df = pd.DataFrame()
@@ -123,9 +151,9 @@ def getBroadcastInfo(season=2020,home_away="b",startDate=0,endDate=0):
 	
 	searchURL = "http://lookup-service-prod.mlb.com/json/named.mlb_broadcast_info.bam?tcid=mm_mlb_schedule&"
 
-	if home_away == "A":
+	if home_away.lower() == "a":
 		searchURL = searchURL + '&home_away=\'A\''
-	elif home_away == "H":
+	elif home_away.lower() == "h":
 		searchURL = searchURL + '&home_away=\'H\''
 	else:
 		pass

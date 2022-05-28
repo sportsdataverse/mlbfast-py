@@ -101,45 +101,9 @@ def searchMlbPlayers(search="",isActive=""):
 		result_count = int(resp_json['search_player_all']['queryResults']['totalSize'])
 		if result_count > 0:
 			print(f'{result_count} players found,\nParsing results into a dataframe.')
-			#players = resp_json['search_player_all']['queryResults']['row']
+
 			for i in tqdm(resp_json['search_player_all']['queryResults']['row']):
-				#print(i)
-				#print(i['name_display_first_last'])
-				#data = {
-				#'player_id' : i['player_id']
-				#,'team_id' : i['team_id']
-				#,'name_full' : i['name_display_first_last']
-				#,'name_first' : i['name_first']
-				#,'name_last' : i['name_last']
-				#,'position' : i['position']
-				#,'college' : i['college']
-				#,'height_feet' : i['height_feet']
-				#,'height_inches' : i['height_inches']
-				#,'height_feet_inches' : (i['height_feet'] + "\"" + i['height_inches'] + "\'")
-				#,'weight' : i['weight']
-				#,'name_display_roster' : i['name_display_roster']
-				#,'sport_code' : i['sport_code']
-				#,'bats' : i['bats']
-				#,'throws' : i['throws']
-				#,'team_code' : i['team_code']
-				#,'birth_city' : i['birth_city']
-				#,'birth_country' : i['birth_country']
-				#,'sport_code' : i['sport_code']
-				#,'pro_debut_date' : i['pro_debut_date']
-				#,'team_full' : i['team_full']
-				#,'team_abbrev' : i['team_abbrev']
-				#,'birth_date' : i['birth_date']
-				#,'birth_state' : i['birth_state']
-				#,'name_display_last_first' : i['name_display_last_first']
-				#,'position_id' : i['position_id']
-				#,'high_school' : i['high_school']
-				#,'name_use' : i['name_use']
-				#,'service_years' : i['service_years']
-				#,'active_sw' : i['active_sw']
-				#}
-				#p_df = pd.DataFrame(data, index=[0])
-				#p_df = pd.DataFrame([data])
-				
+
 				p_df = json_normalize(resp_json['search_player_all']['queryResults']['row']) 
 				main_df = pd.concat([p_df,main_df],ignore_index=True)
 		else:
@@ -200,7 +164,8 @@ def getPlayerInfo(playerID=0):
 
 def getPlayerTeams(playerID=0,season=0):
 	'''
-	Retrives the player info for an MLB player, given a proper MLBAM ID
+	Retrives the info regarding which teams that player played for in a given
+	season, or in the player's career
 
 	Args:
 	
