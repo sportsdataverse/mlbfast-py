@@ -203,6 +203,10 @@ def getPlayerTeams(playerID=0,season=0):
 	
 	playerID (int):
 		Required paramater. If no playerID is provided, the function wil not work.
+
+	season (int):
+		Optional parameter. If provided, the search will only look for teams 
+		that player played for in that season.
 	'''
 	pullCopyrightInfo()
 	#p_df = pd.DataFrame()
@@ -227,9 +231,9 @@ def getPlayerTeams(playerID=0,season=0):
 		#searchURL = urllib.parse.quote_plus(str(searchURL))
 		resp = download(searchURL)
 
-		print(searchURL)
+		#print(searchURL)
 		resp_str = str(resp, 'UTF-8')
-		print(resp_str)
+		#print(resp_str)
 
 		resp_json = json.loads(resp_str)
 		try:
@@ -248,9 +252,3 @@ def getPlayerTeams(playerID=0,season=0):
 			print(f'No results found for the provided playerID. \nTry a diffrient search for better results.')
 		
 		return main_df
-
-def main():
-	pullCopyrightInfo()
-
-if __name__ == "__main__":
-	main()
